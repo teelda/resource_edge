@@ -1,0 +1,80 @@
+:root {
+    --primary: #fff;
+}
+
+.btn {
+    padding: 8px 12px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn--primary{
+    background-color: #0052CC;
+    color: var(--primary);
+    border: 1px solid #0052CC;
+    transition:  all 0.3s ease-out;
+}
+
+.btn--outline{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #0052CC;
+    transition:  all 0.3s ease-out;
+}
+
+.btn--medium{
+    padding: 10px 12px;
+    font-size: 18px;
+}
+
+.btn--large{
+    padding:12px 26px;
+    font-size: 20px;
+}
+
+.btn--mobile{
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: #0052CC;
+    color: #fff;
+    padding: 12px 154px;
+    border: 1px solid #0052CC;
+    transition: all 0.3s ease-out;
+}
+
+.btn--wide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 160px;
+    margin: 0 2rem 0 2rem;
+    background-color: #F4F5F7;
+    border: 1px solid #F4F5F7;
+    color: #A5ADBA;;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 4px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.btn--large:hover, .btn--medium:hover, .btn--mobile:hover, .btn--wide:hover {
+    transition: all 0.3s ease-out;
+    background-color: #fff;
+    color: #0052CC;
+    border: 1px solid #0052CC;
+}
+
+.blue{
+    background-color: #0052CC;
+    color: #fff;
+    border: none;
+}
+
