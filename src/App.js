@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Pages/HomePage/Home';
 import About from './Components/Pages/About/About';
 import Features from './Components/Pages/Features/Features';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       </Routes>
       <About />
       <Features />
+      <Footer />
     </Router>
   )
 }
