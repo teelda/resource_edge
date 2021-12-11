@@ -1,0 +1,31 @@
+.features-container__wrapper{
+    padding: 2rem;
+    margin: 40px;
+}
+
+.features__wrapper{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+	grid-gap: 1em;
+	max-width: 100%;
+    justify-self: flex-start;
+}
+
+.features__container p{
+    color: #5E6C84;
+    font-size: 15px;
+    line-height: 145%;
+}
+
+.logistics-wrapper{
+    max-width: 300px;
+    margin-left: 50px;
+}
+
+.logistics-wrapper > * {
+    padding: 5px;
+}
+
+.image-wrapper{
+    padding: 2rem .5rem;
+}
